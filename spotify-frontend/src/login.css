@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    position: relative;
+
+}
+.login-container:hover {
+    border: 2px solid #fff; 
+  box-shadow: 0 0 15px #fff, 0 0 30px #fff, 0 0 45px #fff;
+}
+
+/* Blinking Border Animation */
+@keyframes blink-border {
+    0% {
+        box-shadow: 0 0 5px 5px #1db954;
+    }
+    50% {
+        box-shadow: 0 0 5px 5px transparent;
+    }
+    100% {
+        box-shadow: 0 0 5px 5px #1db954;
+    }
+}
+.logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    display:contents;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #b3b3b3;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #1db954;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.options a {
+    color: #1db954;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+.btn-login {
+    background-color: #1db954;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-login:hover {
+    background-color: #1ed760;
+}
+
+.divider {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.btn-social {
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-google {
+    background-color: #db4437;
+}
+
+.btn-apple {
+    background-color: #000;
+}
+
+.btn-social:hover {
+    opacity: 0.9;
+}
+
+.signup {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #1db954;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+.signup-container {
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    position: relative;
+
+}
+.signup-container:hover {
+    border: 2px solid #fff; 
+  box-shadow: 0 0 15px #fff, 0 0 30px #fff, 0 0 45px #fff;
+}
+
+/* Blinking Border Animation */
+@keyframes blink-border {
+    0% {
+        box-shadow: 0 0 5px 5px #1db954;
+    }
+    50% {
+        box-shadow: 0 0 5px 5px transparent;
+    }
+    100% {
+        box-shadow: 0 0 5px 5px #1db954;
+    }
+}
+.btn-signup {
+    background-color: #1db954;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-signup:hover {
+    background-color: #1ed760;
+}
